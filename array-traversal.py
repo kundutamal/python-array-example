@@ -8,7 +8,7 @@ for i in a:
 c=0
 l=len(a)
 "using while loop"
-while(c<=l):
+while(c<l):
     print(a[c])
     c+=1
 
