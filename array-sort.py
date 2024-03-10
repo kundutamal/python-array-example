@@ -13,3 +13,11 @@ for i in range(len(a)):
             a[j] = temp
 
 print(a)
+
+a = ar.array('i', [4,10, -1, 2 , 100])
+b = a.tolist()
+b.sort()
+a = ar.array('i')
+a.fromlist(b)
+
+print(a)
