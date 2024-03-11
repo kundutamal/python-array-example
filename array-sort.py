@@ -21,3 +21,8 @@ a = ar.array('i')
 a.fromlist(b)
 
 print(a)
+
+a  = ar.array('i', [9, 10, -1, 0, 5, 4, 3, 2])
+b = ar.array('i')
+b.fromlist(sorted(a))
+print(b)
