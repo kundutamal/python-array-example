@@ -17,4 +17,4 @@ e2 = Employee("TCS", 4.11)
 e3 = Employee("Xoriant", 5)
 
 Employee.counter()
-e1.showcount()
+e1.counter()
