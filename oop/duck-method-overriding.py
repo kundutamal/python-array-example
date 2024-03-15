@@ -21,5 +21,6 @@ def duck_funstion(obj):
 objs = [Shape(), Circle(), Rectangle()]
 
 for i in objs:
+    print(id(id), type(i))
     duck_funstion(i)
 
