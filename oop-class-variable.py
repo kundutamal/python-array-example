@@ -10,8 +10,7 @@ class Employee:
         print("Name : {} Age: {}".format(self.name, self.age))
         print("Employee count {}".format(Employee.empcount))
     
-e1 = Employee("Tamal", 32)
-e2 = Employee("Thakur das", 65)
-e3 = Employee("Shukla", 55)
-e4 = Employee("Payal", 31)
-e5 = Employee("Rinki", 23)
+obj = [Employee("Tamal", 32), Employee("Thakur das", 65), Employee("Shukla", 55),Employee("Payal", 31), Employee("Rinki", 23)]
+
+for i in obj:
+    print(i.name, i.age, i.empcount, Employee.empcount)
